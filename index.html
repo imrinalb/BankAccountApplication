@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="./BankAccountCSS.css">
 </head>
 <body>
-   <form>
+
+    <form class= "first">
+        <label for="name">Account Name</label>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="deposit">Deposit</label>
+        <input type="number" name="deposit" id="deposits" required> <br> <br>
+        <button type="submit" id="submit">Create Acount</button> <br> <br>
+        <textarea name="textArea" id="textArea" cols="50" rows="10"></textarea>
+   
+    </form><br><br>
+   <form class= "second">
+        
+
        <label>Account Name: </label>
        <input type="text" name="" id= "accName" value="" ><br><br>
        <label>Deposit: </label>
@@ -31,10 +43,10 @@
        <input type="button" value="New Deposit" onclick="create()"><br><br>
        <div class= "div1">
         <p id="demo3"></p>
-       </div>
-
-       
+       </div>      
    </form>
-    <script src="./BankAccountJS.js"></script>
+   <script src="./BankAccountJS.js"></script>
+    <script src="./BankAccountJS1.js"></script>
+    
 </body>
 </html>
